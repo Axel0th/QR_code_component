@@ -28,26 +28,27 @@ img {
     width: 300px;
 }
 
-
+@font-face {
+    font-family: CustomFont;
+    src: url("Outfit/Outfit-VariableFont_wght.ttf");
+}
 
 
 .firstParagraph {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: CustomFont;
     font-size: 24px;
     font-weight: 700;
     color: hsl(218, 44%, 22%);
     text-align: center;
-    flex-wrap: wrap;
-    padding-left: 18px;
-    padding-right: 18px;
+    padding-left: 8px;
+    padding-right: 8px;
 }
 
 .secondParagraph {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: CustomFont;
     font-size: 15px;
     font-weight: 400;
     color: hsl(220, 15%, 55%);
-    flex-wrap: wrap;
     padding-left: 18px;
     padding-right: 18px;
     text-align: center;
